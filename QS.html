@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="Site Mobile, Site Responsivo, Responsividade" />
+    <title>TeoryNews</title>
+    <meta name="description" content="Site prático de Responsividade Mobile">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Natália Alencar">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+</head>
+<body>
+    <!-- CABEÇALHO --> 
+    <header class="cabecalho container">
+        <a href="index.html"><h1 class="logo"> TeoryNews </h1></a>
+        <button class="btn-menu bg-gradient"><i class="fa fa-bars fa-lg"></i></button>
+        <nav class="menu">
+            <a class="btn-close"><i class="fa fa-times"></i></a>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="QS.html">Quem somos?</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>          
+    </header>
+    
+    <!-- BANNER -->
+    <div class="banner container">
+        <div class="title">
+            <h2>Quem somos?</h2>
+            <h1>Somos uma iniciativa que busca integrar todas as crenças e teorias da humanidade para conhecimento público!</h1>
+        </div>
+        <div class="intro-text">
+            <p>O Jornalbeliefs é uma plataforma digital dedicada a explorar e compartilhar as mais diversas crenças, filosofias e teorias que moldam a história e o pensamento humano. Nosso objetivo é promover o entendimento e a convivência entre diferentes perspectivas, facilitando o acesso a conteúdos profundos e reflexivos sobre a origem do universo, a vida e as crenças que guiam nossas sociedades.</p>
+        </div>
+    </div>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter container bg-black">
+        <h2>Inscreva-se agora!</h2>
+        <h3>Receba novidades do TeoryNews, dicas e muito mais!</h3>
+        <form>
+            <input class="bg-black radius" type="email" name="email" placeholder="Seu email">
+            <button class="bg-white radius">Cadastrar</button>
+        </form>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape container bg-gradient">
+        <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-google"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+        </div>
+        <p class="copyright">© 2024 TeoryNews. Todos os direitos reservados.</p>
+    </footer>       
+
+    <!-- JQUERY --> 
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+        $(".btn-menu").click(function(){
+            $(".menu").show();
+        });
+        $(".btn-close").click(function(){
+            $(".menu").hide();
+        });
+    </script>      
+</body>
+</html>

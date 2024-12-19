@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+<meta http-equiv="  -UA-Compatible" content="IE=edge">
+<meta name="keywords" content="Site Mobile, Site Responsivo, Responsividade" />
+<title>TeoryNews</title>
+<meta name="description" content="Site prático de Responsividade Mobile">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Natália Alencar">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel= 'https://fonts.googleaps.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <!-- CABEÇALHO --> 
+    <header class="cabecalho container">
+        <a href="index.html"><h1 class="logo"> Site Responsivo </h1></a>
+        <button class="btn-menu bg-gradient"><i class="fa fa-bars fa-lg"></i></button>
+        <nav class="menu">
+            <a class="btn-close"><i class="fa fa-times"></i></a>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="QS.html">Quem somos?</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>          
+    </header>
+    <!-- BANNER --> 
+    <div class="banner container">
+        <div class="title">
+            <h2>Jornalbeliefs </h2>
+            <h3>Conheça as principais teorias sobre nossa existência!</h3>
+            <h3>Para mais conteúdos, inscreva-se!</h3>
+        </div>
+        <div class="buttons">
+            <button class="btn btn-cadastrar bg-white radius"> Cadastre-se no TeoryNews!<i class="fa fa-arrow-circle-right"></i></button>
+            <button class="btn btn-sobre bg-black radius"> Sobre <i class="fa fa-question-circle"></i></button>
+        </div>
+    </div>
+    <!-- SERVICOS --> 
+    <main class="servicos container">
+        <article class="servico bg-white radius">
+            <a href="#"><img src="jesus.jpg" alt="Imagem ilustrativa de Jesus Cristo"></a>
+            <div class="inner">
+                <a href="#"> Deus </a>
+                <p>Segundo o Cristianismo, acredita-se que Deus é o ser supremo, criador do universo, que se revela como um Deus amoroso e pessoal. Ele é trino, composto por Pai, Filho (Jesus Cristo) e Espírito Santo, cada um desempenhando um papel único na salvação e na vida dos crentes. Deus é visto como justo, misericordioso e acessível, desejando um relacionamento íntimo com a humanidade. Se você quiser, posso delver mais em algum aspecto específico! </p>
+            </div>
+        </article>
+        <article class="servico bg-white radius">
+            <a href="#"><img src="evolucao.jpg" alt="Evolução"></a>
+            <div class="inner">
+                <a href="#"> TEORIA DA EVOLUÇÃO </a>
+                <p>A teoria da evolução, formulada por Charles Darwin no século XIX, é um dos pilares da biologia moderna. Ela propõe que todas as espécies de organismos vivos descendem de ancestrais comuns e que a diversidade da vida na Terra é o resultado de um longo processo de mudança ao longo do tempo. Esse processo é impulsionado por mecanismos como a seleção natural, onde as características mais vantajosas para a sobrevivência e reprodução de um organismo tendem a se tornar mais comuns nas populações.
+
+                    A seleção natural ocorre em resposta a pressões ambientais, como a disponibilidade de alimento, predadores e condições climáticas. Além disso, a mutação genética, a migração e o fluxo gênico também desempenham papéis importantes na evolução das espécies. Essas mudanças podem levar ao desenvolvimento de novas características.
+                     </p>
+            </div>
+        </article>
+        <article class="servico bg-white radius">
+            <a href="#"><img src="oparin.jpg" alt="Oparin e Haldane"></a>
+            <div class="inner">
+                <a href="#"> HIPÓTESE DO OPARIN E HALDANE</a>
+                <p>A hipótese mais aceita atualmente para explicar a origem da vida no planeta é a de Oparin e Haldane. Esses dois pesquisadores, de maneira independente, propuseram que a Terra apresentava uma atmosfera diferente no passado e que a ação de diferentes fatores culminou na formação de moléculas simples, as quais deram origem à vida.
+
+                    A atmosfera primitiva, de acordo com Oparin e Haldane, era composta basicamente por amônia, hidrogênio, metano e vapor de água. O vapor de água era essencial para a formação de nuvens, que se precipitavam, ocasionando chuvas, o que permitiu que a superfície da Terra recebesse água. Essa água evaporava muito rapidamente, uma vez que, no início, a superfície era extremamente quente.
+                    
+                    A atmosfera da Terra primitiva sofria ainda com a ação de descargas elétricas e radiação ultravioleta do Sol. Esses dois agentes foram essenciais para que os elementos da atmosfera reagissem e formassem moléculas orgânicas, como os aminoácidos. </p>
+            </div>
+        </article>
+    </main>
+    <!-- NEWSLETTER -->
+    <section class="newsletter container bg-black">
+        <h2> Inscreva-se agora! </h2>
+        <h3>  Receba novidades do teorynews, dicas e muito mais </h3>
+        <form>
+            <input class="bg-black radius" type="email" name="email" placeholder="Seu email">
+            <button class="bg-white radius"> Cadastrar </button>
+        </form>
+    </section>
+    <!-- RODAPÉ -->
+    <footer class="rodape container bg-gradient">
+        <div class="social-icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-google"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-envelope"></i></a>
+        </div>
+        <p class="copyright">
+
+    </footer>       
+    
+    <!-- JQUERY --> 
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+    $(".btn-menu").click(function(){
+        $(".menu").show();
+    });
+    $(".btn-close").click(function(){
+        $(".menu").hide();
+    });
+    </script>      
+</body>
+</html>
